@@ -164,15 +164,16 @@ class Rational:
         return Rational(a, b)
 
 
-first = Rational(1, 2)
-second = Rational(1, 2)
-num = 5
-sub = first - num
-add = first + num
-mul = first * num
-truediv = first / num
+if __name__ == "__main__":
+    first = Rational(1, 2)
+    second = Rational(1, 2)
+    num = 5
+    sub = first - num
+    add = first + num
+    mul = first * num
+    truediv = first / num
 
-print(f'{first} - {num} = {sub}')
-print(f'{first} + {num} = {add}')
-print(f'{first} * {num} = {mul}')
-print(f'{first} / {num} = {truediv}')
+    print(f'{first} - {num} = {sub}')
+    print(f'{first} + {num} = {add}')
+    print(f'{first} * {num} = {mul}')
+    print(f'{first} / {num} = {truediv}')
